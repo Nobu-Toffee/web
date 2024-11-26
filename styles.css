@@ -25,6 +25,12 @@ main {
     padding: 2rem;
 }
 
+/* Divisores */
+.divisor {
+    border-top: 2px solid #444444; /* Gris oscuro */
+    margin: 2rem 0;
+}
+
 /* Sección y botones */
 .seccion {
     margin: 1rem 0;
