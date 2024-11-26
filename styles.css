@@ -39,15 +39,15 @@ main {
 .seccion button {
     margin-top: 0.5rem;
     padding: 0.5rem 1rem;
-    background-color: #4a90e2;
-    color: #fff;
+    background-color: #663399; /* Mismo color que el footer */
+    color: #FFFFFF; /* Texto blanco */
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .seccion button:hover {
-    background-color: #357ab8;
+    background-color: #522a78; /* Un morado más oscuro para el hover */
 }
 
 .seccion p {
