@@ -40,43 +40,66 @@ main {
     padding: 20px;
 }
 
-section#proyectos {
-    margin-top: 20px;
+section {
+    margin-bottom: 40px;
 }
 
-section#proyectos h2 {
+section h2 {
     border-bottom: 2px solid #333; /* Divisor gris oscuro */
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
 
-/* Project cards */
-.proyecto {
+/* Historia section */
+#historia p {
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Ecos section */
+#apartados {
+    margin-top: 20px;
+}
+
+.eco {
     border-bottom: 1px solid #333; /* Divisor gris oscuro */
-    padding: 10px 0;
+    padding: 15px 0;
     margin-bottom: 20px;
 }
 
-.proyecto:last-child {
+.eco:last-child {
     border-bottom: none;
 }
 
-.proyecto h3 {
-    margin: 0 0 10px 0;
+.eco h3 {
     font-size: 1.5em;
+    margin: 0 0 10px 0;
+    color: #ffd700; /* Dorado para destacar los títulos */
 }
 
-/* Buttons */
-.btn {
-    display: inline-block;
+.eco p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Botón de "Volver al Inicio" */
+#volver {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#volver button {
     background-color: #800080; /* Morado */
     color: #fff;
-    text-decoration: none;
-    padding: 10px 15px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
     border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+#volver button:hover {
     background-color: #5a005a; /* Morado más oscuro al pasar el mouse */
 }
