@@ -8,9 +8,9 @@ body {
     color: #FFFFFF; /* Texto blanco */
 }
 
-/* Estilos para el header */
+/* Encabezado */
 header {
-    background-color: #663399; /* Color del header */
+    background-color: #663399; /* Color morado */
     padding: 1rem;
     text-align: center;
 }
@@ -20,7 +20,7 @@ header h1 {
     margin: 0;
 }
 
-/* Estilos para el main */
+/* Estilo para el contenido principal */
 main {
     padding: 2rem;
 }
@@ -31,52 +31,49 @@ main {
     margin: 2rem 0;
 }
 
-/* Sección y botones */
-.seccion {
-    margin: 1rem 0;
-}
-
-.seccion button {
-    margin-top: 0.5rem;
+/* Botones principales */
+button, .btn-back {
+    display: inline-block;
     padding: 0.5rem 1rem;
-    background-color: #663399; /* Mismo color que el footer */
+    background-color: #663399; /* Mismo color que el header/footer */
     color: #FFFFFF; /* Texto blanco */
     border: none;
     border-radius: 5px;
+    text-decoration: none; /* Para los enlaces tipo botón */
+    text-align: center;
     cursor: pointer;
 }
 
-.seccion button:hover {
-    background-color: #522a78; /* Un morado más oscuro para el hover */
+button:hover, .btn-back:hover {
+    background-color: #522a78; /* Morado más oscuro */
+}
+
+/* Botones específicos */
+.seccion button {
+    margin-top: 0.5rem;
 }
 
 .seccion p {
-    display: none;
+    display: none; /* Inicialmente oculto */
     margin-top: 0.5rem;
     padding: 0.5rem;
-    background-color: #29293e;
+    background-color: #29293e; /* Fondo para las secciones de texto */
     border-radius: 5px;
 }
 
-/* Botón de regreso */
-.btn-back {
-    display: inline-block;
-    margin-top: 2rem;
-    padding: 0.5rem 1rem;
-    background-color: #f44141;
-    color: #fff;
+/* Estilo para enlaces */
+a {
+    color: #4a90e2;
     text-decoration: none;
-    border-radius: 5px;
-    text-align: center;
 }
 
-.btn-back:hover {
-    background-color: #cc3636;
+a:hover {
+    color: #357ab8;
 }
 
-/* Estilos para el footer */
+/* Pie de página */
 footer {
-    background-color: #663399; /* Color del footer */
+    background-color: #663399; /* Color morado */
     color: #FFFFFF; /* Texto blanco */
     text-align: center;
     padding: 1rem;
