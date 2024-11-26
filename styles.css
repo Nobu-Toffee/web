@@ -9,11 +9,11 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f9;
+    background-color: #000000;
 }
 
 header {
-    background: #333;
+    background: #663399;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -40,7 +40,7 @@ section {
 }
 
 .proyecto {
-    background: #fff;
+    background: #DCDCDC;
     margin: 1rem 0;
     padding: 1rem;
     border: 1px solid #ddd;
@@ -58,7 +58,7 @@ section {
 }
 
 .btn:hover {
-    background: #555;
+    background: #000000;
 }
 
 footer {
