@@ -81,11 +81,11 @@ section#proyectos h2 {
     background-color: #5a005a; /* Morado más oscuro al pasar el mouse */
 }
 /* Ecos */
-section#eco {
+section#apartados {
     margin-top: 20px;
 }
 
-section#eco h2 {
+section#apartados h2 {
     border-bottom: 2px solid #333; /* Divisor gris oscuro */
     padding-bottom: 5px;
     margin-bottom: 20px;
