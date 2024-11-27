@@ -80,3 +80,29 @@ section#proyectos h2 {
 .btn:hover {
     background-color: #5a005a; /* Morado más oscuro al pasar el mouse */
 }
+/* Ecos */
+section#ecos {
+    margin-top: 20px;
+}
+
+section#ecos h2 {
+    border-bottom: 2px solid #333; /* Divisor gris oscuro */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Project cards */
+.ecos {
+    border-bottom: 1px solid #333; /* Divisor gris oscuro */
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.ecos:last-child {
+    border-bottom: none;
+}
+
+.ecos h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
